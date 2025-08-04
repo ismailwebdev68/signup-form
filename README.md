@@ -1,2 +1,2 @@
 # signup-form
-Practice of HTML forms
+This static page is a practice of designing login forms
