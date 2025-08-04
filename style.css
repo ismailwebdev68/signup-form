@@ -61,9 +61,10 @@ body {
 }
 .form-content {
     background-color: #ffffff;
-    height: 300px;
+    height: 275px;
     box-shadow: 0 5px 17px rgba(128, 128, 128, 0.342);
     z-index: 2;
+    padding-top: 20px;
 }
 .footer {
     background-color: #f9fafb;
@@ -85,6 +86,32 @@ body {
 #p1 {
     margin-bottom: 30px;
 }
+#sub_button{
+    padding: 13px 0;
+    color: #f6ffef;
+    background-color: #596D48;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 210px;
+    cursor: pointer;
+}
+#sub_button:hover{
+    background-color: #4a5a3b;
+}
+#footer_container{
+    margin: 30px 0 0 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+#login{
+    color: #596D48;
+    font-weight: 700;
+    cursor: pointer;
+}
+#login:hover{
+    color: #4a5a3b;
+}
 label {
     font-size: 10px;
     letter-spacing: 1.1px;
@@ -104,5 +131,5 @@ input:focus {
     box-shadow: 1px 1px 11px rgba(128, 128, 128, 0.514);
 }
 h2 {
-    margin: 20px 0 0 50px;
+    margin: 0 0 0 50px;
 }
